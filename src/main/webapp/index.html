@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Body Mass Index</title>
+
+<link rel="stylesheet" href="asset/css/style.css" />
+
+</head>
+<body>
+
+<section class="container">
+	<form class="form">
+		<fieldset>
+			<legend>Temperature Calulator - Celsius to Fahrenheit</legend>
+			<label>
+				Celsius
+				<input id="ce" type="text" placeholder="75" required="required" />
+			</label>
+			
+			<button>Calculate</button>
+		</fieldset>
+	</form>
+	
+	<div class="content-result">
+		<span class="label">From celsius to Fahrenheit</span>
+		<span class="result">0.00</span>
+	</div>
+</section>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="asset/js/TempService.js"></script>
+<script src="asset/js/TempController.js"></script>
+
+</body>
+</html>
